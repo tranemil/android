@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="btnParse">Parse ZipCodes</string>
+    <string name="btnDistance">Compute Distance</string>
+    <string name="fragmentComputeDistance">Fragment CDistance</string>
+    <string name="fragmentNearby">Fragment nearby Locations</string>
+    <string name="btnNearbyLocations">Find nearby locations</string>
+    <string name="btnShowLocations">Find locations</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="radius">Radius in KM</string>
+    <string name="zipCode">Enter zip code</string>
+</resources>

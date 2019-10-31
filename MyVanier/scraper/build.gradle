@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation group: 'com.opencsv', name: 'opencsv', version: '4.1'
+    implementation 'net.sourceforge.htmlunit:htmlunit:2.35.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

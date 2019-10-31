@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">monVanier</string>
+    <!-- <Support tickets> -->
+    <string-array name="issue_drop_entries">
+        <item>Problème 1</item>
+        <item>Problème 2</item>
+        <item>Problème 3</item>
+        <item>Problème 4</item>
+        <item>Problème 5</item>
+        <item>Problème 6</item>
+        <item>Problème 7</item>
+    </string-array>
+    <string-array name="ticket_send_method">
+        <item>SMS</item>
+        <item>Email</item>
+    </string-array>
+    <string name="et_newUsername">Nom d\'utilisateur</string>
+    <string name="et_newPassword">Mot de passe</string>
+    <string name="et_newName">Nom de profil</string>
+    <string name="login">S\'identifier</string>
+    <string name="calendar">Calendrier</string>
+    <string name="txtViewCreateAcc">Tappez ici pour vous inscrire</string>
+    <string name="btnImport">Importer</string>
+    <string name="btnExport">Exporter</string>
+    <string name="btnSubmitTicketText">Envoyer le ticket</string>
+    <string name="send_method">Sélectionnez votre méthode de soumission</string>
+    <string name="details">Détails</string>
+    <string name="map">Carte Interactive</string>
+    <string name="issues">Sélectionnez votre problème</string>
+    <string name="importText">Tappez ici pour importer la bibliothèque d\'une autre personne</string>
+    <string name="librarySharing">Partage de bibliothèque</string>
+    <string name="yourList">Votre Liste</string>
+    <string name="searchTeacher">Recherche Enseignant</string>
+    <string name="btnSearchTeacher">Informations sur l\'enseignant</string>
+    <string name="btnCafeteria">Les Cafétérias</string>
+    <string name="btnEveryonePrint">EveryonePrint</string>
+    <string name="btnSupportTicket">Billets de Soutien</string>
+    <string name="btnLibrary">Bibliothèque</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_teacher_information">TeacherInformation</string>
+    <string name="action_settings">Réglages</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="linearLay">Disposition Linéaire</string>
+    <string name="gridLay">Disposition de la Grille</string>
+    <string name="stagHorizon">Horizon décalé</string>
+    <string name="chkboxRemember">Se souvenir de moi</string>
+    <string name="title_activity_indoor_map">Carte</string>
+    <string name="btnMap">Carte</string>
+    <string name="menuLogOut">Se deconnecter</string>
+    <string name="editProfilePicture">Prenez nouveaux photo</string>
+    <string name="menuregister">S\'inscrire</string>
+    <string name="et_confirmpassword">Confirmez mot de passe</string>
+</resources>

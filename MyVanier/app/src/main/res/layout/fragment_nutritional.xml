@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="."
+    android:background="#DB4446">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#DB4446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="357dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="56dp"
+            android:text="Name of Item"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="63dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_width="116dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="592dp"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:text="Main"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="116dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="592dp"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:text="Map"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnLibrary"
+            android:layout_width="116dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="592dp"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:text="Library"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnCafeteria"
+            android:layout_width="116dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="592dp"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:text="Cafeteria"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_marginTop="40dp"
+        android:background="#cccccc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="410dp"
+            android:layout_height="242dp"
+            android:text="Insert all values here"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="408dp"
+        android:layout_height="40dp"
+        android:text="Nutrional Values"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+</android.support.constraint.ConstraintLayout>

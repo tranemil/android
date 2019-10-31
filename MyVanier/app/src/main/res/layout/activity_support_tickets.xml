@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vanierRed"
+    tools:context=".SupportTickets">
+
+
+    <TextView
+        android:id="@+id/issues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="@string/issues"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/issue_drop"
+        app:layout_constraintStart_toStartOf="@+id/issue_drop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/issue_drop"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:entries="@array/issue_drop_entries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="@string/details"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/newDate"
+        app:layout_constraintStart_toStartOf="@+id/newDate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <EditText
+        android:id="@+id/newDate"
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="220dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:textAlignment="inherit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sendMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="@string/send_method"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ticketSendMethod"
+        app:layout_constraintStart_toStartOf="@+id/ticketSendMethod"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <Spinner
+        android:id="@+id/ticketSendMethod"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:entries="@array/ticket_send_method"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btn_submit_ticket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newDate"
+        app:layout_constraintVertical_bias="0.481"></Spinner>
+
+    <Button
+        android:id="@+id/btn_submit_ticket"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/btnSubmitTicketText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

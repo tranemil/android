@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">myVanier</string>
+
+    <!-- <Support tickets> -->
+    <string-array name="issue_drop_entries">
+        <item>No paper towel</item>
+        <item>No toilet paper</item>
+        <item>Hand sanitizer empty</item>
+        <item>Printer needs paper</item>
+        <item>Cleaning needed</item>
+        <item>Issue 6</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="ticket_send_method">
+        <item>SMS</item>
+        <item>Email</item>
+    </string-array>
+    <string name="issues">Select your issue</string>
+    <string name="map">Interactive Map</string>
+    <string name="details">Details</string>
+    <string name="send_method">Select your submission method</string>
+    <string name="btnSubmitTicketText">Submit ticket</string>
+    <!-- </Support tickets> -->
+    <string name="btnImport">Import</string>
+    <string name="btnExport">Export</string>
+    <string name="importText">Click here to import another person\'s library!</string>
+    <string name="txtViewCreateAcc">Click here to register</string>
+    <string name="et_newUsername">Username</string>
+    <string name="et_newPassword">Password</string>
+    <string name="et_newName">Profile name</string>
+    <string name="login">Log in</string>
+    <string name="calendar">Calendar</string>
+    <string name="librarySharing">Library Sharing</string>
+    <string name="yourList">Your List</string>
+    <string name="searchTeacher">Search Teacher</string>
+    <string name="btnSearchTeacher">Teacher info</string>
+    <string name="btnCafeteria">Cafeterias</string>
+    <string name="btnSupportTicket">Support tickets</string>
+    <string name="btnLibrary">Library</string>
+    <string name="btnEveryonePrint">EveryonePrint</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_teacher_information">TeacherInformation</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="chkboxRemember">Remember me</string>
+    <string name="btnMap">Map</string>
+
+    <string name="linearLay">Linear Layout</string>
+    <string name="gridLay">Grid Layout</string>
+    <string name="stagHorizon">Staggered Horizon</string>
+    <string name="title_activity_indoor_map">Map</string>
+    <string name="menuLogOut">Log out</string>
+    <string name="editProfilePicture">Take new picture</string>
+    <string name="menuregister">Register</string>
+    <string name="et_confirmpassword">Confirm Password</string>
+
+</resources>

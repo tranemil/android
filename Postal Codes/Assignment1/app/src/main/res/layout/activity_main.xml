@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnParse"
+        android:layout_width="395dp"
+        android:layout_height="46dp"
+        android:text="@string/btnParse"
+        app:layout_constraintBottom_toTopOf="@+id/btnDistance"
+        app:layout_constraintTop_toBottomOf="@+id/btnNearby"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnDistance"
+        android:layout_width="395dp"
+        android:layout_height="46dp"
+        android:text="@string/btnDistance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnParse"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnNearby"
+        android:layout_width="395dp"
+        android:layout_height="46dp"
+        android:text="@string/btnNearbyLocations"
+        app:layout_constraintBottom_toTopOf="@+id/btnParse"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+</android.support.constraint.ConstraintLayout>
